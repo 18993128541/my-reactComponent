@@ -1,7 +1,7 @@
 /*
  * @Author: 朱小龙
  * @Date: 2024-03-20 11:36:56
- * @LastEditTime: 2024-03-20 16:25:12
+ * @LastEditTime: 2024-03-20 16:50:06
  * @LastEditors: 朱小龙
  * @Description:
  * @FilePath: \my-app\src\App.js
@@ -10,6 +10,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React, { Component } from "react";
+import { Button } from 'antd'
 
 export default class App extends Component {
   render() {
@@ -26,7 +27,7 @@ export default class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+             <Button type="primary">点我</Button>
           </a>
         </header>
       </div>
