@@ -1,0 +1,17 @@
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-image: url('../../../assets//login/background.png');
+}
+.login-header {
+    height: 80px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.headerTitle {
+    text-align: center;
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 30px;
+}
