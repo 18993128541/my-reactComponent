@@ -1,7 +1,7 @@
 /*
  * @Author: 朱小龙
  * @Date: 2024-03-21 10:35:05
- * @LastEditTime: 2024-03-21 11:35:33
+ * @LastEditTime: 2024-03-21 11:59:28
  * @LastEditors: 朱小龙
  * @Description: 登录的路由组件
  * @FilePath: \my-app\src\pages\login\login.jsx
@@ -16,7 +16,11 @@ export default class Login extends Component {
         <header className="login-header">
           <h1 className="headerTitle">我的react项目</h1>
         </header>
-        <section className="login-content"></section>
+        <section className="login-content">
+            <div className="login-from">
+                
+            </div>
+        </section>
       </div>
     );
   }
